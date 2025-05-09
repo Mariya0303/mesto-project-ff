@@ -18,7 +18,7 @@ function createCard(card, deleteCard) {
   cardImage.src = card.link;
   cardImage.alt = card.name;
   cardTitle.textContent = card.name;
-  deleteButton.addEventListener("click", function () {
+  deleteButton.addEventListener("click", function () { //обработчик для удаления
     deleteCard(cardElement);
   });
 
